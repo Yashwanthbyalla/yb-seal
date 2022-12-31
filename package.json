@@ -1,0 +1,43 @@
+{
+  "name": "seal",
+  "version": "1.0.0",
+  "description": "SEAL - This is a light weight Scroll Effect Animation Library.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashwanthbyalla/seal.git"
+  },
+  "keywords": [
+    "scroll",
+    "animate on scroll",
+    "on scroll",
+    "animate",
+    "animated",
+    "animations",
+    "library",
+    "npm",
+    "package",
+    "translate",
+    "fade",
+    "fade-top",
+    "fade-bottom",
+    "fade-left",
+    "fade-right",
+    "zoom",
+    "scale",
+    "light-weight",
+    "performance"
+  ],
+  "author": "Yashwanth Byalla",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Yashwanthbyalla/seal/issues"
+  },
+  "homepage": "https://github.com/Yashwanthbyalla/seal#readme"
+}
