@@ -1,4 +1,4 @@
-# SEAL - Scroll Effect Aanimation Library
+# SEAL - Scroll Effect Animation Library
 This is a light weight Scroll Effect Animation Library.
 
 
