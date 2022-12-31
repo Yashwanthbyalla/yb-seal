@@ -1,5 +1,5 @@
 {
-  "name": "seal",
+  "name": "seal.js",
   "version": "1.0.0",
   "description": "SEAL - This is a light weight Scroll Effect Animation Library.",
   "main": "src/index.ts",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yashwanthbyalla/seal.git"
+    "url": "git+https://github.com/Yashwanthbyalla/seal.js.git"
   },
   "keywords": [
     "scroll",
@@ -37,7 +37,7 @@
     "typescript": "^4.6.3"
   },
   "bugs": {
-    "url": "https://github.com/Yashwanthbyalla/seal/issues"
+    "url": "https://github.com/Yashwanthbyalla/seal.js/issues"
   },
-  "homepage": "https://github.com/Yashwanthbyalla/seal#readme"
+  "homepage": "https://github.com/Yashwanthbyalla/seal.js#readme"
 }
