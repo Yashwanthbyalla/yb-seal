@@ -1,5 +1,5 @@
 {
-  "name": "seal.js",
+  "name": "yb-seal",
   "version": "1.0.0",
   "description": "SEAL - This is a light weight Scroll Effect Animation Library.",
   "main": "src/index.ts",
@@ -8,10 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yashwanthbyalla/seal.js.git"
+    "url": "git+https://github.com/Yashwanthbyalla/yb-seal.git"
   },
   "keywords": [
     "scroll",
+    "effect",
+    "scroll effect",
     "animate on scroll",
     "on scroll",
     "animate",
@@ -26,7 +28,13 @@
     "fade-bottom",
     "fade-left",
     "fade-right",
+    "slide-up",
+    "slide-down",
+    "slide-right",
+    "slide-left",
     "zoom",
+    "zoom-in",
+    "zoom-out",
     "scale",
     "light-weight",
     "performance"
@@ -37,7 +45,7 @@
     "typescript": "^4.6.3"
   },
   "bugs": {
-    "url": "https://github.com/Yashwanthbyalla/seal.js/issues"
+    "url": "https://github.com/Yashwanthbyalla/yb-seal/issues"
   },
-  "homepage": "https://github.com/Yashwanthbyalla/seal.js#readme"
+  "homepage": "https://github.com/Yashwanthbyalla/yb-seal#readme"
 }
