@@ -16,7 +16,7 @@ Lightweight, performance focused (**2.3 kb**) scroll effect animation library, w
 
 ```sh
 # Usage with NPM
-$ npm install seal
+$ npm install seal.js
 
 ```
 
@@ -24,17 +24,21 @@ Load it with your favorite module loader or use as a global variable
 
 ```js
 // ES6 modules
-import seal from 'seal';
+import seal from 'seal.js';
 
 // CommonJS modules
-var seal = require('seal');
+var seal = require('seal.js');
 ```
 
 And remember to add styles
 
 ```scss
-// Webpack
-@import '~seal/src/y-seal.css';
+@import '~seal.js/src/y-seal.css';
+
+or
+
+// add below line in angular.json file under styles array:
+"node_modules/seal.js/src/y-seal.css"
 ```
 
 ## Usage
@@ -48,7 +52,7 @@ In HTML, add a `y-seal` class to make sure it tracks the respective element and 
 Then simply add below line in angular.json file under scripts array:
 
 ```js
-"node_modules/seal/src/index.js"
+"node_modules/seal.js/src/index.js"
 ```
 
 It will look for all classes with a `y-seal` class and launch it's respective animation based on viewport scroll.
