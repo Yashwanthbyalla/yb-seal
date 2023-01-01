@@ -2,7 +2,7 @@
 This is a light weight Scroll Effect Animation Library.
 
 
-Lightweight, performance focused (**2.3 kb**) scroll effect animation library, written in Typescript and compiled to JavaScript. No dependencies!
+Lightweight, performance focused (**2.8 kb**) scroll effect animation library, written in Typescript and compiled to JavaScript. No dependencies!
 
 **Seal** (_Scroll Effect Animation Library_) was created to provide a lightweight solution for animating elements upon scroll. It's based on DOM objects which gives amazing performance in terms of checking the element's presence in the viewport.
 
