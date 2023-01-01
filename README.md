@@ -27,8 +27,15 @@ Load it with your favorite module loader or use as a global variable
 // ES6 modules
 import seal from 'yb-seal';
 
+or
 // CommonJS modules
 var seal = require('yb-seal');
+
+or
+//simply add below line in angular.json file under scripts array:
+
+"node_modules/yb-seal/src/index.js"
+
 ```
 
 And remember to add styles
@@ -48,12 +55,6 @@ In HTML, add a `yb-seal` class to make sure it tracks the respective element and
 
 ```html
 <div class="yb-seal yb-seal-slide-right"></div>
-```
-
-Then simply add below line in angular.json file under scripts array:
-
-```js
-"node_modules/yb-seal/src/index.js"
 ```
 
 It will look for all classes with a `yb-seal` class and launch it's respective animation based on viewport scroll.
