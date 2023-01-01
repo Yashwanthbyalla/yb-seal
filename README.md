@@ -76,6 +76,6 @@ The library supports several animations:
 - `yb-seal-zoom-in`
 - `yb-seal-zoom-out`
 - `yb-seal-flip-left`
-- `yb-seal-flip-rightt`
+- `yb-seal-flip-right`
 - `yb-seal-flip-up`
-- `yb-seal-flip-bottom`
+- `yb-seal-flip-down`

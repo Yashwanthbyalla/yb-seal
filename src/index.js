@@ -9,7 +9,7 @@ function loadSEAL() {
 }
 function scrollAnimate() {
     const y_elements = document.querySelectorAll(".yb-seal");
-    const triggerBottom = (window.innerHeight / 5) * 5;
+    const triggerBottom = (window.innerHeight / 5) * 4.5;
     y_elements.forEach((y_item) => {
         const y_itemTop = y_item.getBoundingClientRect().top;
         if (y_itemTop < triggerBottom) {
