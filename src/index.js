@@ -14,12 +14,23 @@ function scrollAnimate() {
         const y_itemTop = y_item.getBoundingClientRect().top;
         if (y_itemTop < triggerBottom) {
             y_item.classList.add("seal-show");
-            const value = y_item.getAttribute("yb-seal-duration");
-            if (value) {
-                y_item.style.transition = value + 's all ease';
+            // duration
+            const durationValue = y_item.getAttribute("yb-seal-duration");
+            if (durationValue) {
+                y_item.style.transition = durationValue + 's all ease';
             }
             else {
                 y_item.style.transition = '0.6s all ease';
+            }
+            // Delay
+            const delayValue = y_item.getAttribute("yb-seal-delay");
+            if (delayValue) {
+                y_item.style.transitionDelay = delayValue + 's';
+            }
+            // Timing function
+            const timingValue = y_item.getAttribute("yb-seal-timing");
+            if (timingValue) {
+                y_item.style.transitionTimingFunction = timingValue;
             }
             if ((Array.from(y_item.classList).includes('yb-seal-slide-up')) || (Array.from(y_item.classList).includes('yb-seal-slide-down'))) {
                 let op = 0.1;
