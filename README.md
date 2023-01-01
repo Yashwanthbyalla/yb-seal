@@ -82,19 +82,20 @@ For example:
 
 - `yb-seal-timing` - specifies the speed curve of the transition effect
 
-Below are the possible values:
-- `ease` - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
-- `linear` - specifies a transition effect with the same speed from start to end
-- `ease-in` - specifies a transition effect with a slow start
-- `ease-out` - specifies a transition effect with a slow end
-- `ease-in-out` - specifies a transition effect with a slow start and end
-
 For example:
 ```html
 <div
-    class="yb-seal yb-seal-slide-right" yb-seal-timing="ease"
+    class="yb-seal" yb-seal-timing="ease" yb-seal-timing-width="500"
 ></div>
 ```
+Below are the possible values:
+- `ease` - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+- `ease-in` - specifies a transition effect with a slow start
+- `ease-out` - specifies a transition effect with a slow end
+- `ease-in-out` - specifies a transition effect with a slow start and end
+- `linear` - specifies a transition effect with the same speed from start to end
+
+- `yb-seal-timing-width` - It can be any number which upon hovering the element should be assigned with
 
 ## Animations
 The library supports several animations:
