@@ -61,7 +61,7 @@ In HTML, add a `yb-seal` class to make sure it tracks the respective element and
 It will look for all classes with a `yb-seal` class and launch it's respective animation based on viewport scroll.
 
 ## Options
-In **seal** you can easily change animation's classes, by adding a proper `yb-seal` classes:
+In **seal** you can easily change animation's duration, delay and timing functions by adding a proper `yb-seal` attributes:
 - `yb-seal-duration` - changes duration of the animation (enter value in seconds)
 
 For example:
@@ -71,7 +71,6 @@ For example:
 ></div>
 ```
 
-In **seal** you can also easily change animation's delay, by adding a proper `yb-seal` classes:
 - `yb-seal-delay` - delays the animation for the transition effect (enter value in seconds)
 
 For example:
@@ -81,7 +80,6 @@ For example:
 ></div>
 ```
 
-In **seal** you can easily change animation's classes, by adding a proper `yb-seal` classes:
 - `yb-seal-timing` - specifies the speed curve of the transition effect
 
 Below are the possible values:
