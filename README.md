@@ -83,11 +83,11 @@ For example:
 - `yb-seal-timing` - specifies the speed curve of the transition effect
 
 Below are the possible values:
-`ease` - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
-`linear` - specifies a transition effect with the same speed from start to end
-`ease-in` - specifies a transition effect with a slow start
-`ease-out` - specifies a transition effect with a slow end
-`ease-in-out` - specifies a transition effect with a slow start and end
+- `ease` - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+- `linear` - specifies a transition effect with the same speed from start to end
+- `ease-in` - specifies a transition effect with a slow start
+- `ease-out` - specifies a transition effect with a slow end
+- `ease-in-out` - specifies a transition effect with a slow start and end
 
 For example:
 ```html
