@@ -1,6 +1,7 @@
 function loadSEAL() {
     window.addEventListener('scroll', () => {
         document.body.style.setProperty('--seal', window.pageYOffset / (document.body.offsetHeight - window.innerHeight) + 'px');
+        document.body.style.setProperty('overflow-x', 'hidden');
     }, false);
     window.addEventListener("scroll", scrollAnimate);
     scrollAnimate();
