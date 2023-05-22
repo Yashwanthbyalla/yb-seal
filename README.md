@@ -119,6 +119,8 @@ The library supports several animations:
 
 ## Usage for MAC [Multi Avatar Cluster]
 
+The latest addition enables users to combine four distinct pictures into a single display. When hovering over each image, specific effects are triggered, expanding the selected image into a full-sized display.
+
 Use 'yb-mac-container' class to initiate the effects from the library. [Check the corresponding demo for better clarity of the usage]
 
 ```html
