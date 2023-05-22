@@ -6,6 +6,9 @@ Lightweight, performance focused (**2.8 kb**) scroll effect animation library, w
 
 **Seal** (_Scroll Effect Animation Library_) was created to provide a lightweight solution for animating elements upon scroll. It's based on DOM objects which gives amazing performance in terms of checking the element's presence in the viewport.
 
+## Demos
+- [SEAL - Scroll Effect Animation Library](https://yashwanthbyalla.github.io/yb-seal-demo/)
+- [MAC - Multi Avatar Cluster](https://yashwanthbyalla.github.io/yb-seal-mac-demo/)
 ### 🚀 [Demo](https://yashwanthbyalla.github.io/yb-seal-demo/)
 
 ## Table of Contents
@@ -39,15 +42,18 @@ or
 
 ```
 
-And remember to add styles
+To better make use of Tree shaking, there is no need to import the entire package. For instance, if you are intended to use 'Multi Avatar Cluster', then just import 'yb-mac.css' and vice versa.
 
 ```scss
 @import '~yb-seal/src/yb-seal.css';
+@import '~yb-seal/src/yb-mac.css';
 
 or
 
 // add below line in angular.json file under styles array:
 "node_modules/yb-seal/src/yb-seal.css"
+"node_modules/yb-seal/src/yb-mac.css"
+
 ```
 
 ## Usage
@@ -109,3 +115,17 @@ The library supports several animations:
 - `yb-seal-flip-right`
 - `yb-seal-flip-up`
 - `yb-seal-flip-down`
+
+
+## Usage for MAC [Multi Avatar Cluster]
+
+Use 'yb-mac-container' class to initiate the effects from the library. [Check the corresponding demo for better clarity of the usage]
+
+```html
+<div class="yb-mac-container">
+    <img src="./images/alarm.png" alt="Alarm">
+    <img src="./images/asteroid.png" alt="Asteroid">
+    <img src="./images/memory.jpg" alt="Memory">
+    <img src="./images/tricky.png" alt="Brain">
+</div>
+```
