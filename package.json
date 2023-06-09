@@ -1,6 +1,6 @@
 {
   "name": "yb-seal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SEAL - This is a light weight Scroll Effect Animation Library.",
   "main": "src/index.ts",
   "scripts": {
@@ -19,6 +19,15 @@
     "animate",
     "animated",
     "animations",
+    "hover",
+    "hover effect",
+    "hover image",
+    "image",
+    "image effect",
+    "multi image hover effect",
+    "avatar",
+    "multi avatar",
+    "multi avatar cluster",
     "library",
     "npm",
     "package",
