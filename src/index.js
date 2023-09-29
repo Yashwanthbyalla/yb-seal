@@ -1,18 +1,19 @@
 "use strict";
 function loadSEAL() {
-    window.addEventListener('scroll', () => {
+    window.addEventListener('load', () => {
         document.body.style.setProperty('--seal', window.pageYOffset / (document.body.offsetHeight - window.innerHeight) + 'px');
         document.body.style.setProperty('overflow-x', 'hidden');
     }, false);
     window.addEventListener("scroll", scrollAnimate);
-    scrollAnimate();
 }
 function scrollAnimate() {
     const y_elements = document.querySelectorAll(".yb-seal");
-    const triggerBottom = (window.innerHeight / 5) * 4.5;
     y_elements.forEach((y_item) => {
-        const y_itemTop = y_item.getBoundingClientRect().top;
-        if (y_itemTop < triggerBottom) {
+        const rect = y_item.getBoundingClientRect();
+        if (rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.top <= (window.innerWidth || document.documentElement.clientWidth)) {
             y_item.classList.add("seal-show");
             // duration
             const durationValue = y_item.getAttribute("yb-seal-duration");
@@ -64,4 +65,8 @@ function scrollAnimate() {
         }
     });
 }
-loadSEAL();
+// loadSEAL();
+window.addEventListener("scroll", scrollAnimate);
+document.addEventListener('DOMContentLoaded', () => {
+    scrollAnimate();
+});
